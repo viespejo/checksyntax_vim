@@ -12,7 +12,7 @@ if !exists('g:checksyntax.javascript')
                 \ 'alternatives': [
                 \     {
                 \         'name': 'gjslint',
-                \         'cmd': 'gjslint',
+                \         'cmd': 'gjslint --additional_extensions pjs',
                 \         'ignore_nr': [1, 110],
                 \         'efm': '%P%*[^F]FILE%*[^:]: %f %*[-],Line %l%\, %t:%n: %m,%Q',
                 \     },
